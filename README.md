@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
+# ✍️ Handwritten Code Analyzer (Prototype)
 
-## Project info
+An AI-powered web application that captures handwritten programming code from a camera or uploaded image, detects the programming language, highlights syntax errors, and suggests corrected code with possible output.  
+This prototype is developed for **educational and research purposes** to support coding learners.
 
-**URL**: https://lovable.dev/projects/2a6d3208-ff35-4da7-96e6-0f5c15f6726e
+---
 
-## How can I edit this code?
+## 🚀 Live Demo  
+🔗 https://handwrittencodeanalyser.netlify.app/
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🎯 Project Objective  
+To intelligently convert handwritten programming code into digital form, automatically correct syntax errors, and help learners understand mistakes in real-time.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2a6d3208-ff35-4da7-96e6-0f5c15f6726e) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📌 Key Capabilities
+- 📸 Capture handwritten code using webcam or upload
+- 🔍 Auto-detect programming language
+- 🧠 Identify syntax and formatting issues
+- 🛠 Suggest corrected code version
+- ▶️ Show expected output (if executable)
+- 🌐 Simple and responsive modern UI
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚠️ Prototype Disclaimer  
+This project is in early prototype stage.  
+Output may vary depending on handwriting clarity and syntax support.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🧠 Core Components
+| Component | Description |
+|----------|-------------|
+| OCR (Handwritten Text Recognition) | Converts handwritten code to digital text |
+| Language Detection Model | Identifies the programming language |
+| Syntax Analyzer | Highlights issues in extracted code |
+| Auto-Correction Engine | Suggests corrections & formats code |
+| Output Predictor | Generates expected results if valid |
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠 Technology Stack
+- React.js
+- OCR API (Handwritten Recognition)
+- Language Detection APIs / ML Model
+- Netlify (Deployment)
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧩 How It Works
+1. User writes code on paper
+2. Code is captured using camera or uploaded image
+3. OCR converts handwriting into machine-readable code
+4. Programming language is auto-detected
+5. Syntax analysis and code correction are performed
+6. Expected output is displayed if supported
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📌 Use Cases
+- 🎓 Students learning programming
+- 👨‍🏫 Teachers validating handwritten assignments
+- 🗒 Converting coding notes into digital format
+- 🧪 Research in handwriting and code understanding
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🚧 Future Enhancements
+- Support for more languages (Rust, Kotlin, Swift…)
+- Better recognition for unclear handwriting
+- More accurate debugging guidance
+- Cloud-based secure execution environment
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📜 License
+This project is for academic demonstration only.  
+Not intended for commercial use.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2a6d3208-ff35-4da7-96e6-0f5c15f6726e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
